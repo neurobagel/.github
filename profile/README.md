@@ -13,5 +13,5 @@ integration,
 and [searching](https://github.com/neurobagel/concept_query) of these easier.
 This project is still relatively young, but we are excited to get this into the
 hands of people and hope that it will be useful.
-You can take a look at our current [roadmap](roadmap.md) to see what we are working on.
+You can take a look at our current [roadmap](profile/roadmap.md) to see what we are working on.
 Come say hello!
