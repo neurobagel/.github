@@ -3,6 +3,7 @@
 ## Now
 
 **Local test deployment** (single-session)
+
 What gets done:
 
 - annotation tool produces graph-ready single-session data output
@@ -16,6 +17,7 @@ What's the point
 - get real user feedback on the query interface and outputs
 
 **Local test deployment** (multi-session)
+
 What gets done
 
 - annotation tool can deal with several phenotypic files and multiple sessions, integrate information
@@ -28,6 +30,7 @@ What's the point
 - get user feedback on multi-session search workflow
 
 **Local test deployment** (derivative data)
+
 What gets done
 
 - annotation tool can integrate derivative information (simplified file format)
@@ -43,6 +46,7 @@ What's the point
 ## Next
 
 **Users annotate their own data** (local deployment)
+
 What gets done
 
 - detailed documentation of the annotation and graph upload process, data model
@@ -58,6 +62,7 @@ What's the point
 - first minimal process that can scale and be deployed at remote sites
 
 **Users annotate their own data** (remote deployment)
+
 What gets done
 
 - deployment of the stack of services (search, annotation, upload) is well documented
@@ -71,6 +76,7 @@ What's the point
 ## Later
 
 **Everything in the browser**
+
 What gets done
 
 - BIDS meta-data extraction is done inside the (a) web app
