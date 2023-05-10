@@ -1,4 +1,13 @@
 <!---
+Until this PR is ready for review, you can include the [WIP] tag in its title, or leave it as a github draft.
+-->
+
+
+
+
+
+
+<!---
 This is a suggested pull request template.
 It's designed to capture information we've found to be useful in reviewing pull requests.
 
@@ -25,3 +34,17 @@ Changes proposed in this pull request:
 
 -
 -
+
+## Checklist
+
+- [ ] PR has an interpretable title with a prefix (`[ENH]`, `[BUG]`, `[DOC]`, `[INFRA]`, `[MAINT]`)
+- [ ] PR links to Github issue with mention `Closes #XXXX`
+- [ ] Tests pass
+- [ ] Code is properly formatted
+
+
+For new features:
+- [ ] Tests have been added
+
+For bug fixes:
+- [ ] There is at least one test that would fail under the original bug conditions.
