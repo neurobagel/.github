@@ -7,7 +7,7 @@ description: Fill in this template to report a bug
 
 title: "[BUG] "
 
-labels: ["bug"]
+labels: ["type:bug"]
 
 body:
   - type: checkboxes
@@ -49,7 +49,7 @@ body:
         If necessary give information about your setup.
       value: |
         - OS:
-        - Python version:
+        - Python/Node version:
     validations:
       required: false
 
