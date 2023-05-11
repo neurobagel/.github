@@ -7,7 +7,7 @@ description: Suggest an idea for this project
 
 title: "[ENH] "
 
-labels: ["enhancement"]
+labels: ["feedback:feature request"]
 
 body:
   - type: checkboxes
