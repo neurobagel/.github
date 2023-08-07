@@ -1,6 +1,6 @@
-# 👋 Welcome to the Neurobagel Archive! 🧠🥯
+# 👋 Welcome to Neurobagel! 🧠🥯
 
-Our goal with the neurobagel project is to provide a way for researchers and
+Our goal with the Neurobagel project is to provide a way for researchers and
 other data users to define and find cohorts of individuals across datasets.
 Not all useful and important data can be openly shared
 or are allowed to be uploaded to remote servers.
