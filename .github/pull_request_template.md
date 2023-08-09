@@ -1,47 +1,35 @@
-<!---
-Until this PR is ready for review, you can include the [WIP] tag in its title, or leave it as a github draft.
--->
-
-
-
-
+<!--- Until this PR is ready for review, you can include the [WIP] tag in its title, or create a draft PR. -->
 
 
 <!---
-This is a suggested pull request template.
-It's designed to capture information we've found to be useful in reviewing pull requests.
-
-If there is other information that would be helpful to include, please don't hesitate to add it!
+Below is a suggested pull request template.
+It's designed to capture info we've found to be useful in reviewing pull requests, but feel free to add more details you feel are relevant/necessary.
 -->
 
-<!-- Please indicate after the # which issue you're closing with this PR.
-This is helpful for the maintainers AND will magically close the issue
-when this pull request is merged!
-If the PR closes multiple issues, includes "closes" before each one is listed.
-
-You can also just link to other issues if necessary, e.g. "See also #1234".
+<!-- 
+Please indicate after the # which issue you're closing with this PR, if applicable.
+If the PR closes multiple issues, include "closes" before each one is listed.
+You can also link to other issues if necessary, e.g. "See also #1234".
 
 https://help.github.com/articles/closing-issues-using-keywords
 -->
-Closes # 
-See also #
+Closes #
 
-<!-- Please give a brief overview of what has changed in the PR.
-If you're not sure what to write, consider it a note to the maintainers
-to indicate what they should be looking for when they review the pull request.
+<!-- 
+Please give a brief overview of what has changed or been added in the PR.
+This can include anything specific the maintainers should be looking for when they review the PR.
 -->
 Changes proposed in this pull request:
 
 -
 -
 
+<!-- To be checked off by reviewers -->
 ## Checklist
 
-- [ ] PR has an interpretable title with a prefix (`[ENH]`, `[BUG]`, `[DOC]`, `[INFRA]`, `[MAINT]`)
-- [ ] PR links to Github issue with mention `Closes #XXXX`
+- [ ] PR has an interpretable title with a prefix (`[ENH]`, `[REF]`, `[TST]`, `[CI]`, `[MNT]`, `[INF]`, `[FIX]` `[MODEL]`, `[DOC]`)
+- [ ] PR links to GitHub issue with mention `Closes #XXXX`
 - [ ] Tests pass
-- [ ] Code is properly formatted
-
 
 For new features:
 - [ ] Tests have been added
