@@ -27,7 +27,7 @@ Changes proposed in this pull request:
 <!-- To be checked off by reviewers -->
 ## Checklist
 
-- [ ] PR has an interpretable title with a prefix (`[ENH]`, `[FIX]`, `[REF]`, `[TST]`, `[CI]`, `[MNT]`, `[INF]`, `[MODEL]`, `[DOC]`)
+- [ ] PR has an interpretable title with a prefix (`[ENH]`, `[FIX]`, `[REF]`, `[TST]`, `[CI]`, `[MNT]`, `[INF]`, `[MODEL]`, `[DOC]`) _(see https://neurobagel.org/contributing/pull_requests for more info)_
 - [ ] PR links to GitHub issue with mention `Closes #XXXX`
 - [ ] Tests pass
 
