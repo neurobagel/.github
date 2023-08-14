@@ -30,6 +30,7 @@ Changes proposed in this pull request:
 - [ ] PR has an interpretable title with a prefix (`[ENH]`, `[FIX]`, `[REF]`, `[TST]`, `[CI]`, `[MNT]`, `[INF]`, `[MODEL]`, `[DOC]`) _(see https://neurobagel.org/contributing/pull_requests for more info)_
 - [ ] PR links to GitHub issue with mention `Closes #XXXX`
 - [ ] Tests pass
+- [ ] Checks pass
 
 For new features:
 - [ ] Tests have been added
