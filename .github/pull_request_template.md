@@ -14,7 +14,7 @@ You can also link to other issues if necessary, e.g. "See also #1234".
 
 https://help.github.com/articles/closing-issues-using-keywords
 -->
-Closes #
+- Closes #
 
 <!-- 
 Please give a brief overview of what has changed or been added in the PR.
