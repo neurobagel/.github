@@ -10,7 +10,7 @@ so that we can let others find out about the data without having direct access t
 We are building tools with the goal of making the
 [annotation](https://github.com/neurobagel/annotation_tool),
 integration,
-and [searching](https://github.com/neurobagel/concept_query) of these easier.
+and [searching](https://query.neurobagel.org/) of these easier.
 This project is still relatively young, but we are excited to get this into the hands of people and hope that it will be useful. 
 The project originated from the [ORIGAMI](https://neurodatascience.github.io/) lab with the [Douglas hospital](https://douglas.research.mcgill.ca/mallar-chakravarty/) and support from many other projects, including [ReproNim](https://www.repronim.org/) and [NeuroHub](https://www.mcgill.ca/hbhl/neurohub).
 You can take a look at our current [roadmap](https://github.com/orgs/neurobagel/projects/1) to see what we are working on.
