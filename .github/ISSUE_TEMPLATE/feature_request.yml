@@ -5,9 +5,6 @@ name: Feature request
 
 description: Suggest an idea for this project
 
-title: "[ENH] "
-
-labels: ["feedback:feature request"]
 
 body:
   - type: checkboxes
