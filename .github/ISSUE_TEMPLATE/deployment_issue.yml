@@ -65,7 +65,7 @@ body:
       label: How to reproduce
       description: |
         List the steps you took that led to the issue you are encountering.
-        Include links to any relevant sections of https://neurobagel.org/user_guide/ that you followed.
+        If applicable, please include links to any sections of https://neurobagel.org/user_guide/ that you followed.
     validations:
       required: false
 
