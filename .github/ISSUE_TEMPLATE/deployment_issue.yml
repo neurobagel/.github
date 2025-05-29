@@ -73,7 +73,8 @@ body:
     attributes:
       label: Environment variable configuration
       description: |
-        Please paste below the output of `docker compose config`, which will display the resolved values of environment variables in your deployment.
+        Run `docker compose config` inside your local recipes directory and paste the output below.
+        This will display the resolved values of environment variables in your deployment.
         Wrap the output in triple backticks (```) to format it as code.
       value: |
         ```
