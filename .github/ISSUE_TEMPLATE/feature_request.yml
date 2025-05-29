@@ -3,7 +3,7 @@ name: Feature request
 # See the json schema to help you create / update this form
 # https://json.schemastore.org/github-issue-forms.json
 
-description: Suggest an new feature or improvement
+description: Suggest a new feature or improvement
 
 type: "Enhancement"
 
