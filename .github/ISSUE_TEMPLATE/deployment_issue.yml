@@ -1,0 +1,117 @@
+name: Node deployment issue
+
+# See the json schema to help you create / update this form
+# https://json.schemastore.org/github-issue-forms.json
+
+description: Report an issue you encountered while deploying a node
+
+type: "Node setup"
+
+body:
+  - type: checkboxes
+    attributes:
+      label: Is there an existing issue for this?
+      description:
+        Please check if an issue already exists for the problem you encountered.
+      options:
+        - label: I have searched the existing issues
+          required: true
+
+  - type: dropdown
+    attributes:
+      label: Deployment profile
+      description: |
+        What type of Neurobagel deployment are you using/trying to set up?
+      options:
+        - Full stack/local node with federation (default)
+        - Local node only
+        - Local federation only
+      default: 0
+    validations:
+      required: true
+
+  - type: checkboxes
+    attributes:
+      label: Self-troubleshooting checklist
+      description:
+        Please confirm you have tried the following before opening this issue.
+      options:
+        - label: I have double-checked the [first-time setup instructions](https://neurobagel.org/user_guide/getting_started/) and searched the [Setting up your own Neurobagel node](https://neurobagel.org/user_guide/) docs for help
+          required: true
+        - label: I have cloned the latest version of the [deployment recipes repo](https://github.com/neurobagel/recipes)
+          required: true
+        - label: I have pulled the latest Docker images (`docker compose pull`)
+          required: true
+
+  - type: textarea
+    attributes:
+      label: Current behavior
+      description: |
+        Describe the issue you are encountering.
+        Tip: You can attach images clicking this area to highlight it and then dragging files in.
+      placeholder: Please describe the issue you are encountering.
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Error message
+      description: If available, paste below the error message you encountered.
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: How to reproduce
+      description: |
+        List the steps you took that led to the issue you are encountering.
+        If applicable, please include links to any sections of https://neurobagel.org/user_guide/ that you followed.
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Environment variable configuration
+      description: |
+        Run `docker compose config` inside your local recipes directory and paste the output below.
+        This will display the resolved values of environment variables in your deployment.
+        Wrap the output in triple backticks (```) to format it as code.
+      value: |
+        ```
+        Paste output of docker compose config here
+        ```
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Federation nodes configuration
+      description: |
+        If using a deployment profile that includes federation, please paste below the contents of your `local_nb_nodes.json` file.
+        Wrap the output in triple backticks (```) to format it as code.
+      value: |
+        ```
+        Paste contents of local_nb_nodes.json here
+        ```
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: System details
+      description: |
+        Please provide details about the machine used to host the node.
+      value: |
+        - OS:
+        - Docker version:
+        - Docker Compose version:
+    validations:
+      required: false
+
+  # - type: textarea
+  #   attributes:
+  #     label: Version
+  #     description: |
+  #       Which version did you encounter this bug on?
+  #     value: |
+  #       - version:
