@@ -1,6 +1,6 @@
 # 👋 Welcome to Neurobagel! 🧠🥯
 
-Our goal with the Neurobagel project is to provide a way for researchers and
+The goal of the Neurobagel project is to provide a way for researchers and
 other data users to define and find cohorts of individuals across datasets.
 Not all useful and important data can be openly shared
 or are allowed to be uploaded to remote servers.
@@ -9,10 +9,11 @@ so that we can let others find out about the data without having direct access t
 
 We are building tools with the goal of making the
 [annotation](https://annotate.neurobagel.org),
-[integration](https://neurobagel.org/infrastructure/),
-and [searching](https://query.neurobagel.org/) of these easier.
-This project is still relatively young, but we are excited to get this into the hands of people and hope that it will be useful. 
-The project originated from the [ORIGAMI](https://neurodatascience.github.io/) lab with the [Douglas Hospital](https://douglas.research.mcgill.ca/mallar-chakravarty/) and support from many other projects, including [ReproNim](https://www.repronim.org/) and [NeuroHub](https://www.mcgill.ca/hbhl/neurohub).
+[integration](https://neurobagel.org/user_guide/getting_started/),
+and [searching](https://query.neurobagel.org/) of clinical neuroimaging data easier.
+This project is under active development, and we are excited to hear from you if it resonates with your needs, if you are interested in collaborating, or you have ideas for how Neurobagel could be useful.
+
+The project originated from the [ORIGAMI Lab](https://neurodatascience.github.io/) with the [Douglas Hospital](https://douglas.research.mcgill.ca/mallar-chakravarty/) and support from many other projects, including [ReproNim](https://www.repronim.org/) and [NeuroHub](https://www.mcgill.ca/hbhl/neurohub).
 
 For more information, check out our:
 - [Documentation](https://neurobagel.org/)
